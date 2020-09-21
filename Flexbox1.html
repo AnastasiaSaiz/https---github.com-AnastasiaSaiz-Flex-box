@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox1</title>
+</head>
+<style>
+    a {
+        background-color:white;
+        color: teal;
+        text-decoration: none;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    h1{
+        color: white;
+        margin-left: 10px;
+
+    }
+    #Cabecera {
+        display: flex;
+        justify-content: space-between;
+        background-color: teal;
+        color: white;
+        margin: 0px;
+
+    }
+    #Enlaces {
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        margin-right: 10px;
+        margin: 10px;
+        
+    }
+</style>
+
+<body>
+    <header>
+        <div id="Cabecera">
+            <h1>Título</h1>
+
+            <div id="Enlaces">
+                <a href="https://www.google.es/">Google</a>
+                <a href="https://es.yahoo.com/">Yahoo</a>
+                <a href="https://duckduckgo.com/">duckduckgo</a>
+            </div>
+            <!--Aún metiendo un Div dentro de otro, los enlaces me aparecen pegados. Así mismo, he añadido el margin, y tampoco se separan...-->
+        </div>
+    </header>
+</body>
+
+</html>

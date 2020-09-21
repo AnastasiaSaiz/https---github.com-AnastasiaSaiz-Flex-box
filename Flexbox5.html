@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox5</title>
+</head>
+<style>
+    * {
+        margin: 0%;
+        padding: 5px;
+    }
+
+    .Intros {
+        background-color: tomato;
+        
+    }
+    .Noticias {
+        background-color: green;
+    }
+
+    .Contenedor1 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        background-color: tomato;
+
+    }
+    #Container-2 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        background-color: green;
+    }
+    .div-intro{
+        width: 25%;
+    }
+
+    h1 {
+        text-align: center;
+        
+        background-color: white;
+        padding: 10px 30px 10px 30px;
+        border-radius: 20px;
+    }
+
+   
+
+    div {
+        width: 100%;
+    }
+    #h1-container {
+        display:flex;
+        justify-content: center;
+        color: tomato;
+
+    }
+    #h1-noticias {
+        display: flex;
+        justify-content: center;
+        color: green;
+    }
+</style>
+
+<body>
+    <div>
+        <div class="Intros">
+            <div id="h1-container">
+            <h1>Intros</h1>
+        </div>
+        </div>
+        <div class="Contenedor1">
+            <div class="div-intro">
+
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat cupiditate nobis labore
+                    eveniet
+                    ullam voluptatibus doloribus fuga ipsum cumque.
+
+                </p>
+            </div>
+            <div class="div-intro">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat cupiditate nobis labore
+                    eveniet
+                    ullam voluptatibus doloribus fuga ipsum cumque.
+
+                </p>
+            </div>
+            <div class="div-intro">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat cupiditate nobis labore
+                    eveniet
+                    ullam voluptatibus doloribus fuga ipsum cumque.
+
+                </p>
+
+            </div>
+        </div>
+        <div class="Noticias">
+            <div id="h1-noticias">
+            <h1>Noticias</h1>
+        </div>
+
+        </div>
+        <div id="Container-2">
+            <div>
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt expedita distinctio esse ab, atque
+                    nam?
+                </p>
+            </div>
+            <div>
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt expedita distinctio esse ab, atque
+                    nam?
+                </p>
+            </div>
+            <div>
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt expedita distinctio esse ab, atque
+                    nam?
+                </p>
+            </div>
+            <div>
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt expedita distinctio esse ab, atque
+                    nam?
+                </p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
